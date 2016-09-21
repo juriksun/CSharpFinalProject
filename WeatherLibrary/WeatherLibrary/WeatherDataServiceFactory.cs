@@ -14,8 +14,7 @@ namespace WeatherLibrary
 
         public delegate IWeatherDataService WeatherServise();
 
-        public static IWeatherDataService GetWeatherDataService(WeatherServise weatherServise) { 
-
+        public static IWeatherDataService GetWeatherDataService(WeatherServise weatherServise) {
             return weatherServise();
         }
 
