@@ -63,7 +63,7 @@ namespace WeatherLibrary
                                };
 
                 foreach (var aElement in elements) {
-                    weatherData.City.Id = Int32.Parse(aElement.CityId);
+
                     weatherData.City.Name = aElement.CytyName;
                     weatherData.City.Coord.Lon = double.Parse(aElement.CityCoordLon);
                     weatherData.City.Coord.Lat = double.Parse(aElement.CityCoordLat);
