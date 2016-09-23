@@ -26,7 +26,7 @@ namespace WeatherLibrary
 
     //Class Of Wind's Direction
     public class Direction {
-        public double Derection { get; set; }
+        public double Value { get; set; }
         public string Code { get; set; }
         public string Name { get; set; }
     }

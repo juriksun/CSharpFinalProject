@@ -19,7 +19,7 @@ namespace WeatherLibrary
         public Pressure Pressure { get; set; }
         public Wind Wind { get; set; }
         public Clouds Clouds { get; set; }
-        public string Mode { get; set; }
+        public string PrecipitationMode { get; set; }
         public Weather Weather { get; set; }
         public DateTime LastUpdateValue { get; set; }
 
@@ -59,6 +59,6 @@ namespace WeatherLibrary
     public class Weather {
         public int Number { get; set; }
         public string Value { get; set; }
-        public string icon { get; set; }
+        public string Icon { get; set; }
     }
 }
