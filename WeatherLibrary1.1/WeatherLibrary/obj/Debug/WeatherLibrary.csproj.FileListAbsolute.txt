@@ -13,3 +13,6 @@ C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary\WeatherLibra
 C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary1.1\WeatherLibrary\bin\Debug\WeatherLibrary.exe.config
 C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary1.1\WeatherLibrary\obj\Debug\WeatherLibrary.exe
 C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary1.1\WeatherLibrary\obj\Debug\WeatherLibrary.pdb
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary1.1\WeatherLibrary\bin\Debug\WeatherLibrary.exe
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary1.1\WeatherLibrary\bin\Debug\WeatherLibrary.pdb
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary1.1\WeatherLibrary\obj\Debug\WeatherLibrary.csprojResolveAssemblyReference.cache

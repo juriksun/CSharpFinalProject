@@ -3,33 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WeatherLibrary;
 
-namespace WeatherLibrary
+namespace ConsoleWeathers
 {
     class Program
     {
         static void Main(string[] args)
         {
-
             //testing the program
             Location location;
             IWeatherDataService service = WeatherDataServiceFactory.GetWeatherDataService(WeatherDataServiceFactory.OPEN_WEATHER_MAP);
-            for (;;) {
+            for (;;)
+            {
                 Console.WriteLine("x.For exit.");
                 Console.Write("Please enter the name of city: ");
                 location = new Location(Console.ReadLine());
 
-                try {
+                try
+                {
                     WeatherData testWeather = service.GetWeatherData(location);
 
                     //place
-                    Console.WriteLine("\nPlace: " + testWeather.City.Name 
+                    Console.WriteLine("\nPlace: " + testWeather.City.Name
                         + ", " + testWeather.City.Country + " ("
                         + testWeather.City.Coord.Lon + ", " + testWeather.City.Coord.Lat + ")");
                     //temprature
                     Console.WriteLine("Temp: " + testWeather.Temprature.Value +
-                        " (min " + testWeather.Temprature.Min + ", max " + testWeather.Temprature.Max +") " + testWeather.Temprature.Unit);
-                    
+                        " (min " + testWeather.Temprature.Min + ", max " + testWeather.Temprature.Max + ") " + testWeather.Temprature.Unit);
+
                     //huidity
                     Console.WriteLine("Humidity: " + testWeather.Humidity.Value + " " + testWeather.Humidity.Unit);
 
@@ -49,7 +51,8 @@ namespace WeatherLibrary
                     //weather
                     Console.WriteLine("Last Update: " + testWeather.LastUpdateValue.ToLongTimeString());
                 }
-                catch (WeatherDataServiceException e) {
+                catch (WeatherDataServiceException e)
+                {
                     Console.WriteLine(e);
                 }
                 Console.WriteLine("\nPress any key to continue...\n");
@@ -58,3 +61,4 @@ namespace WeatherLibrary
         }
     }
 }
+
