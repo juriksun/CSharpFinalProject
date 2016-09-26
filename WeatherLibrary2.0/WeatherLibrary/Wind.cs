@@ -1,4 +1,5 @@
-﻿/*Class of Wind Data*/
+﻿//Class of Wind Data
+//by Shamer&Alexander
 
 namespace WeatherLibrary
 {
@@ -10,7 +11,6 @@ namespace WeatherLibrary
         }
     }
 
-    //Class Of Wind's Speed
     public class Speed
     {
         public double Value { get; set; }

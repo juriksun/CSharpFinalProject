@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BA63079B-9B00-4BEA-A6CD-943C6545B884}</ProjectGuid>
+    <ProjectGuid>{673CB63A-1EE1-4C3A-96DC-1E8163897FEC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WeatherLibrary</RootNamespace>

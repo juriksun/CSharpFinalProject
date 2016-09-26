@@ -1,7 +1,6 @@
-﻿/*
-* Location class. Teke the location from user.
-* by Shamer&Alexander
-*/
+﻿//Location class. Teke the location from user.
+//by Shamer&Alexander
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

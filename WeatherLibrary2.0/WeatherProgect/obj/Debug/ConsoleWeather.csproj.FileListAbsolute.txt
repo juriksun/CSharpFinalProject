@@ -1,0 +1,8 @@
+C:\Users\lolic\Desktop\WeatherProgect\WeatherProgect\obj\Debug\ConsoleWeather.csprojResolveAssemblyReference.cache
+C:\Users\lolic\Desktop\WeatherProgect\WeatherProgect\bin\Debug\WeatherProgect.exe.config
+C:\Users\lolic\Desktop\WeatherProgect\WeatherProgect\bin\Debug\WeatherProgect.exe
+C:\Users\lolic\Desktop\WeatherProgect\WeatherProgect\bin\Debug\WeatherProgect.pdb
+C:\Users\lolic\Desktop\WeatherProgect\WeatherProgect\bin\Debug\WeatherLibrary.dll
+C:\Users\lolic\Desktop\WeatherProgect\WeatherProgect\bin\Debug\WeatherLibrary.pdb
+C:\Users\lolic\Desktop\WeatherProgect\WeatherProgect\obj\Debug\WeatherProgect.exe
+C:\Users\lolic\Desktop\WeatherProgect\WeatherProgect\obj\Debug\WeatherProgect.pdb

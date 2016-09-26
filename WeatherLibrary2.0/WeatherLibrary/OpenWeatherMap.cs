@@ -1,19 +1,40 @@
-﻿using System;
+﻿//Class for getting data from open weather map.
+//by Shamer&Alexander
+
+using System;
 using System.Linq;
 using System.Xml.Linq;
 
 namespace WeatherLibrary
 {
+    /// <summary>
+    /// Class for getting data from "Open Weather Map" service.</summary>
+    /// <remarks>
+    /// A class have method which, parse xml data and enter them to WetherData Class.</remarks>
     public class OpenWeatherMap : IWeatherDataService
     {
+        /// <summary>
+        /// Parameter for singleton instance </summary>
         private static OpenWeatherMap instance;
+
+        /// <summary>
+        /// The class private constructor. </summary>
         private OpenWeatherMap() { }
+
+        /// <summary>
+        /// Instance property.</summary>
+        /// <value>
+        /// This is a property for singleton instance.</value>
         public static OpenWeatherMap Instance{
             get{
                 return instance = instance ?? new OpenWeatherMap(); ;
             }
         }
 
+        /// <summary>
+        /// This is a method for parsing the xml to WetherData Class and return him.
+        /// Using the linq to xml.</summary>
+        /// <param name="location"> Parameter for location</param>
         public WeatherData GetWeatherData(Location location)
         {
             XDocument xdoc;
@@ -25,8 +46,7 @@ namespace WeatherLibrary
                 xdoc = XDocument.Load(api);
                 weatherData = new WeatherData();
 
-                //start parsing XML with weather data
-
+                //start parsing XML
                 var elements = from element in xdoc.Descendants("current")
                                select new
                                {
@@ -70,7 +90,7 @@ namespace WeatherLibrary
                     weatherData.WeatherValue = aElement.WeatherValue;
                     weatherData.LastUpdateValue = DateTime.Parse(aElement.LastupdateValue);
                 }        
-                //end parsing
+                //end of parsing
             }
             catch (Exception e)
             {

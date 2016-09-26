@@ -1,8 +1,6 @@
-﻿/*
- * Class of Wather Data
- */
+﻿//Class of Weather data
+//by Shamer&Alexander
 
-//Need to do normal comments
 using System;
 
 namespace WeatherLibrary
