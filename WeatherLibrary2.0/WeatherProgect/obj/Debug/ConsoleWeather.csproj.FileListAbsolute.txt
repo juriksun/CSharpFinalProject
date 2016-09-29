@@ -14,3 +14,11 @@ C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherPr
 C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\bin\Debug\WeatherLibrary.dll
 C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\bin\Debug\WeatherLibrary.pdb
 C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\obj\Debug\ConsoleWeather.csprojResolveAssemblyReference.cache
+C:\Users\lolic\Desktop\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\bin\Debug\WeatherProgect.exe.config
+C:\Users\lolic\Desktop\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\obj\Debug\WeatherProgect.exe
+C:\Users\lolic\Desktop\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\obj\Debug\WeatherProgect.pdb
+C:\Users\lolic\Desktop\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\bin\Debug\WeatherProgect.exe
+C:\Users\lolic\Desktop\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\bin\Debug\WeatherProgect.pdb
+C:\Users\lolic\Desktop\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\bin\Debug\WeatherLibrary.dll
+C:\Users\lolic\Desktop\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\bin\Debug\WeatherLibrary.pdb
+C:\Users\lolic\Desktop\CSharpFinalProject\WeatherLibrary2.0\WeatherProgect\obj\Debug\ConsoleWeather.csprojResolveAssemblyReference.cache
