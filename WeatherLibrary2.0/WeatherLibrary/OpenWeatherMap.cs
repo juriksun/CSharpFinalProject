@@ -1,5 +1,5 @@
-﻿//Class for getting data from open weather map.
-//by Shamer&Alexander
+﻿//Class for getting data from open weather map website
+//by Shamir & Alexander
 
 using System;
 using System.Linq;
@@ -10,7 +10,7 @@ namespace WeatherLibrary
     /// <summary>
     /// Class for getting data from "Open Weather Map" service.</summary>
     /// <remarks>
-    /// A class have method which, parse xml data and enter them to WetherData Class.</remarks>
+    /// A class have method that parse xml data and enter the data to WetherData Class.</remarks>
     public class OpenWeatherMap : IWeatherDataService
     {
         /// <summary>
@@ -32,8 +32,8 @@ namespace WeatherLibrary
         }
 
         /// <summary>
-        /// This is a method for parsing the xml to WetherData Class and return him.
-        /// Using the linq to xml.</summary>
+        /// This is a method for parsing the xml data to WetherData Class and return it
+        /// Using linq to xml.</summary>
         /// <param name="location"> Parameter for location</param>
         public WeatherData GetWeatherData(Location location)
         {
@@ -46,11 +46,11 @@ namespace WeatherLibrary
                 xdoc = XDocument.Load(api);
                 weatherData = new WeatherData();
 
-                //start parsing XML
+                //start parsing linq to XML
                 var elements = from element in xdoc.Descendants("current")
                                select new
                                {
-                                   CytyName = element.Element("city").Attribute("name").Value,
+                                   CityName = element.Element("city").Attribute("name").Value,
                                    CityCoordLon = element.Element("city").Element("coord").Attribute("lon").Value,
                                    CityCoordLat = element.Element("city").Element("coord").Attribute("lat").Value,
                                    CityCountry = element.Element("city").Element("country").Value,
@@ -71,7 +71,7 @@ namespace WeatherLibrary
                                };
 
                 foreach (var aElement in elements) {
-                    weatherData.City.Name = aElement.CytyName;
+                    weatherData.City.Name = aElement.CityName;
                     weatherData.City.Coord.Lon = double.Parse(aElement.CityCoordLon);
                     weatherData.City.Coord.Lat = double.Parse(aElement.CityCoordLat);
                     weatherData.City.Country = aElement.CityCountry;

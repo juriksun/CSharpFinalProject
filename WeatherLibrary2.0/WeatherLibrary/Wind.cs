@@ -1,12 +1,13 @@
 ﻿//Class of Wind Data
-//by Shamer&Alexander
+//by Shamir & Alexander
 
 namespace WeatherLibrary
 {
     public class Wind
     {
         public Speed Speed { get; set; }
-        public Wind() {
+        public Wind()
+        {
             Speed = new Speed();
         }
     }

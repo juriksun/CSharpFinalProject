@@ -1,5 +1,5 @@
 ﻿//Class of Exception Of Weather Data service
-//by Shamer&Alexander
+//by Shamir & Alexander
 
 using System;
 

@@ -5,3 +5,10 @@ C:\Users\lolic\Desktop\WeatherProgect\WeatherUnitTest\bin\Debug\WeatherLibrary.p
 C:\Users\lolic\Desktop\WeatherProgect\WeatherUnitTest\obj\Debug\WeatherUnitTest.csprojResolveAssemblyReference.cache
 C:\Users\lolic\Desktop\WeatherProgect\WeatherUnitTest\obj\Debug\WeatherUnitTest.dll
 C:\Users\lolic\Desktop\WeatherProgect\WeatherUnitTest\obj\Debug\WeatherUnitTest.pdb
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherUnitTest\bin\Debug\WeatherUnitTest.dll
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherUnitTest\bin\Debug\WeatherUnitTest.pdb
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherUnitTest\bin\Debug\WeatherLibrary.dll
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherUnitTest\bin\Debug\WeatherLibrary.pdb
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherUnitTest\obj\Debug\WeatherUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherUnitTest\obj\Debug\WeatherUnitTest.dll
+C:\Users\lolic\Desktop\Programing\CSharpFinalProject\WeatherLibrary2.0\WeatherUnitTest\obj\Debug\WeatherUnitTest.pdb

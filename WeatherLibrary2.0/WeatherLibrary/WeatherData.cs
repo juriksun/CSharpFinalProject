@@ -1,5 +1,5 @@
 ﻿//Class of Weather data
-//by Shamer&Alexander
+//by Shamir & Alexander
 
 using System;
 
@@ -17,7 +17,8 @@ namespace WeatherLibrary
         public string WeatherValue { get; set; }
         public DateTime LastUpdateValue { get; set; }
 
-        public WeatherData(){
+        public WeatherData()
+        {
             City = new City();
             Temprature = new Temprature();
             Humidity = new Humidity();
@@ -26,19 +27,22 @@ namespace WeatherLibrary
         }
     }
 
-    public class Temprature {
+    public class Temprature
+    {
         public double Value { get; set; }
         public double Min { get; set; }
         public double Max { get; set; }
         public string Unit { get; set; }
     }
 
-    public class Humidity {
+    public class Humidity
+    {
         public int Value { get; set; }
         public string Unit { get; set; }
     }
 
-    public class Pressure {
+    public class Pressure
+    {
         public double Value { get; set; }
         public string Unit { get; set; }
     }

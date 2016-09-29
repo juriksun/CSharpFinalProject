@@ -1,5 +1,5 @@
-﻿//Interface of Wether Data Service 
-//by Shamer&Alexander
+﻿//Interface of Weather Data Service 
+//by Shamir & Alexander
 
 namespace WeatherLibrary
 {
@@ -10,7 +10,7 @@ namespace WeatherLibrary
     public interface IWeatherDataService
     {
         /// <summary>
-        /// Method  for getting Wether data</summary>
+        /// Method  for getting Weather data</summary>
         /// <param name="location"> Parameter of location.</param>
         WeatherData GetWeatherData(Location location);
     }

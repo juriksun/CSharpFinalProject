@@ -13,13 +13,19 @@ namespace ConsoleWeather
         {
             //testing the program
             Location location;
+            string nameOfCity;
             IWeatherDataService service = WeatherDataServiceFactory.GetWeatherDataService(WeatherDataServiceFactory.OPEN_WEATHER_MAP);
             for (;;)
             {
                 Console.WriteLine("x.For exit.");
                 Console.Write("Please enter the name of city: ");
-                location = new Location(Console.ReadLine());
+                nameOfCity = Console.ReadLine();
+                if(nameOfCity == "x")
+                {
+                    return;
+                }
 
+               location = new Location(nameOfCity);
                 try
                 {
                     WeatherData testWeather = service.GetWeatherData(location);
