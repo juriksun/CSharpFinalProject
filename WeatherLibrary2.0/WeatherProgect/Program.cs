@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using WeatherLibrary;
 
 namespace ConsoleWeather
@@ -14,7 +11,9 @@ namespace ConsoleWeather
             //testing the program
             Location location;
             string nameOfCity;
+
             IWeatherDataService service = WeatherDataServiceFactory.GetWeatherDataService(WeatherDataServiceFactory.OPEN_WEATHER_MAP);
+
             for (;;)
             {
                 Console.WriteLine("x.For exit.");
