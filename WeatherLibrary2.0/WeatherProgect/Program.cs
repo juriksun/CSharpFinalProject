@@ -33,6 +33,7 @@ namespace ConsoleWeather
                     Console.WriteLine("\nPlace: " + testWeather.City.Name
                         + ", " + testWeather.City.Country + " ("
                         + testWeather.City.Coord.Lon + ", " + testWeather.City.Coord.Lat + ")");
+
                     //temprature
                     Console.WriteLine("Temp: " + testWeather.Temprature.Value +
                         " (min " + testWeather.Temprature.Min + ", max " + testWeather.Temprature.Max + ") " + testWeather.Temprature.Unit);
